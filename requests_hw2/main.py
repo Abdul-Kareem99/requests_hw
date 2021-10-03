@@ -35,6 +35,6 @@ class YaUpLoader:
 
 
 if __name__ == '__main__':
-    TOKEN = 'AQAAAABI2kSwAADLW8ANSlFIRkGGuDSpZiiyNx4'
+    TOKEN = ''
     uploader = YaUpLoader(TOKEN)
     uploader.upload_file('project/_test.txt', '_test.txt')
